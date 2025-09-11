@@ -7,7 +7,7 @@ const Professional = () => {
       {/* Heading */}
       <div className="text-center max-w-3xl px-4">
         <h2 className="text-4xl md:text-5xl font-serif text-gray-900">
-          Comet is{" "}
+          <span className="text-3xl font-thin"> Comet is</span>{" "}<br/>
           <span className="italic font-light">professional</span>
         </h2>
         <p className="mt-6 text-gray-600 text-lg">
@@ -20,11 +20,11 @@ const Professional = () => {
       {/* Content Boxes */}
       <div className="mt-16 grid md:grid-cols-2 gap-10 w-full max-w-6xl px-6">
         {/* Left Box */}
-        <div className="bg-[#F6F5EE] rounded-xl shadow-sm p-6 flex flex-col items-center">
+        <div className="bg-[#F6F5EE] rounded-xl  p-6 flex flex-col items-center">
           <img
             src={assets.SS1}
             alt="Preview 1"
-            className="rounded-lg shadow-md w-full object-cover"
+            className="rounded-lg w-full object-cover"
           />
           <p className="mt-6 text-xl font-medium text-gray-900 text-center">
             Make decisions faster, get up to speed fast
@@ -36,11 +36,11 @@ const Professional = () => {
         </div>
 
         {/* Right Box */}
-        <div className="bg-[#F6F5EE] rounded-xl shadow-sm p-6 flex flex-col items-center">
+        <div className="bg-[#F6F5EE] rounded-xl  p-6 flex flex-col items-center">
           <img
             src={assets.SS3}
             alt="Preview 2"
-            className="rounded-lg shadow-md w-full object-cover"
+            className="rounded-lg w-full object-cover"
           />
           <p className="mt-6 text-xl font-medium text-gray-900 text-center">
             Ask Comet to manage your email & calendar
