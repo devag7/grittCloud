@@ -1,1 +1,28 @@
 @import "tailwindcss";
+@font-face {
+    font-family: 'pp-editorial-new';
+    src: url('fonts/fonnts.com-PP_Editorial_New_Light.woff2') format('woff2'),
+         url('fonts/fonnts.com-PP_Editorial_New_Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@theme {
+    --font-sans: 'pp-editorial-new', sans-serif;
+}
+@font-face {
+    font-family: 'pp-editorial-new-ittalic';
+    src: url('fonts/fonnts.com-PP_Editorial_New_Light.woff2') format('woff2'),
+         url('fonts/fonnts.com-PP_Editorial_New_Light.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@theme {
+    --font-myfont: 'pp-editorial-new-ittalic', sans-serif;
+}
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/MyFont.woff2') format('woff2'),
+       url('/fonts/MyFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
