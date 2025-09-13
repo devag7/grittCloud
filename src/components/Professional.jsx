@@ -7,10 +7,10 @@ const Professional = () => {
       {/* Heading */}
       <div className="text-center max-w-3xl px-4">
         <h2 className="text-4xl md:text-5xl font-serif text-gray-900">
-          <span className="text-3xl font-thin"> Comet is</span>{" "}<br/>
-          <span className="italic font-light">professional</span>
+          <span className="text-3xl font-thin font-FK-Grotesk"> Comet is</span>{" "}<br/>
+          <span className="font-bold font-ultralight">professional</span>
         </h2>
-        <p className="mt-6 text-gray-600 text-lg">
+        <p className="mt-6 text-gray-600 text-lg font-FK-Grotesk">
           Stay in the flow. Comet can book meetings, follow up on emails,
           browse other pages on your behalf, research, shop, summarize,
           and more.
@@ -26,10 +26,10 @@ const Professional = () => {
             alt="Preview 1"
             className="rounded-lg w-full object-cover"
           />
-          <p className="mt-6 text-xl font-medium text-gray-900 text-center">
+          <p className="mt-6 text-xl font-medium text-gray-900 text-center font-FK-Grotesk">
             Make decisions faster, get up to speed fast
           </p>
-          <p className="mt-3 text-gray-600 text-center text-sm">
+          <p className="mt-3 text-gray-600 text-center text-sm font-FK-Grotesk">
             Ask Comet to navigate unfamiliar software, get quick answers,
             research, summarize, translate, and more.
           </p>
@@ -42,10 +42,10 @@ const Professional = () => {
             alt="Preview 2"
             className="rounded-lg w-full object-cover"
           />
-          <p className="mt-6 text-xl font-medium text-gray-900 text-center">
+          <p className="mt-6 text-xl font-medium text-gray-900 text-center font-FK-Grotesk">
             Ask Comet to manage your email & calendar
           </p>
-          <p className="mt-3 text-gray-600 text-center text-sm">
+          <p className="mt-3 text-gray-600 text-center text-sm font-FK-Grotesk">
             Comet can answer questions about your inbox, schedule meetings,
             brief you for the day, make sense of Slack, social media, and
             anything on the web.

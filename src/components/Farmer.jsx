@@ -32,12 +32,12 @@ const Farmer = () => {
 
           {/* Content */}
           <div className="relative z-10 text-center px-6">
-            <h1 className="text-6xl md:text-7xl font-serif mb-10">
-              <span className="italic">Comet</span> is here
+            <h1 className="text-6xl md:text-7xl mb-10 font-ultralight">
+              C<span className="font-ultralight-italic">o</span>met is here
             </h1>
             <Button
               textclass="text-black font-bold"
-              className="px-8 py-4 rounded-full shadow-lg"
+              className="px-8 py-4 rounded-full shadow-lg font-FK-Grotesk"
               text="Get Comet"
               bgcolor="white"
               color="black"

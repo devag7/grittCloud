@@ -10,7 +10,7 @@ const Navbar = () => {
           <img src={assets.logo} alt="logo" />
         </div>
         <div className="flex gap-12">
-          <Button textclass="text-black" txtcolor1="white" text="Download" color="black" bgcolor="[#FBFAF4]"  className="px-3 py-2" />
+          <Button textclass="text-black font-FK-Grotesk" txtcolor1="white" text="Download" color="black" bgcolor="[#FBFAF4]"  className="px-3 py-2" />
           <div className="rounded-full px-5 py-3 bg-[#FBFAF4] hover:scale-110 cursor-pointer trastion-all duration-300">
             <img src={assets.perLogo} alt="personal logo" />
           </div>  
