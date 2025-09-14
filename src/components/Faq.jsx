@@ -28,7 +28,7 @@ const Faq = () => {
 
   return (
     <div className="w-full flex flex-col items-center py-16 bg-white">
-      <h2 className="text-7xl  font-serif text-gray-800 mb-10">FAQ</h2>
+      <h2 className="text-7xl  font-bold text-gray-800 mb-10 font-ultralight">F<span className="font-ultralight-italic">A</span>Q</h2>
 
       <div className="w-full max-w-2xl space-y-4">
         {faqs.map((faq, index) => (
@@ -38,7 +38,7 @@ const Faq = () => {
             onClick={() => toggleFaq(index)}
           >
             <div className="flex justify-between items-center">
-              <h3 className="text-lg text-gray-900">{faq.question}</h3>
+              <h3 className="text-lg text-gray-900 font-FK-Grotesk">{faq.question}</h3>
               <span className="text-2xl font-light text-gray-500">
                 {openIndex === index ? "−" : "+"}
               </span>
@@ -49,17 +49,17 @@ const Faq = () => {
                 openIndex === index ? "max-h-40 opacity-100 mt-3" : "max-h-0 opacity-0"
               }`}
             >
-              <p className="text-gray-600 text-sm">{faq.answer}</p>
+              <p className="text-gray-600 text-sm font-FK-Grotesk">{faq.answer}</p>
             </div>
           </div>
         ))}
       </div>
 
       <div className="mt-12 bg-black text-white px-8 py-6 rounded-xl shadow-lg flex flex-col md:flex-row items-center justify-between w-full max-w-3xl">
-        <p className="text-lg mb-4 md:mb-0">
+        <p className="text-lg mb-4 md:mb-0 font-FK-Grotesk">
           Looking for more helpful tips to get started with Comet?
         </p>
-        <button className="bg-white text-black font-medium px-6 py-2 rounded-full hover:bg-gray-200 transition">
+        <button className="bg-white text-black font-medium px-6 py-2 rounded-full hover:bg-gray-200 transition font-FK-Grotesk">
           Comet Resources
         </button>
       </div>
