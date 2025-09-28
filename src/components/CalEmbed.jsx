@@ -14,7 +14,7 @@ const CalEmbed = () => {
                 cal.q = cal.q || []; 
                 d.head.appendChild(d.createElement("script")).src = A; 
                 cal.loaded = true; 
-            } 
+            }   
             if (ar[0] === L) { 
                 const api = function () { p(api, arguments); }; 
                 const namespace = ar[1]; 
@@ -45,18 +45,21 @@ const CalEmbed = () => {
   }, []);
 
   return (
-    <div className="w-full flex flex-col items-center py-20 bg-white">
-      {/* Custom Title for the Scheduler */}
-      <h2 className="text-4xl md:text-5xl font-serif text-gray-900 mb-10">
-        <span className="text-3xl font-thin font-FK-Grotesk"> Schedule </span>{" "}
-        <span className="font-bold font-ultralight">Your Free Consultation</span>
+    <div id="calEmbed" className="w-full flex flex-col items-center py-12 sm:py-16 md:py-20 bg-white px-4">
+      {/* Title */}
+      <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif text-gray-900 mb-6 sm:mb-8 md:mb-10 text-center leading-snug">
+        <span className="block sm:inline text-xl sm:text-2xl md:text-3xl font-thin font-FK-Grotesk">
+          Schedule
+        </span>{" "}
+        <span className="font-bold font-ultralight">
+          Your Free Consultation
+        </span>
       </h2>
       
-      {/* Container for the Cal.com widget */}
-      <div className="w-full max-w-5xl h-[800px] bg-[#F6F5EE] rounded-xl shadow-2xl p-4 overflow-hidden">
-        {/* The target DIV with the exact ID from your embed code */}
+      {/* Widget Container */}
+      <div className="w-full max-w-md sm:max-w-2xl md:max-w-5xl h-[600px] sm:h-[700px] md:h-[800px] bg-[#F6F5EE] rounded-lg sm:rounded-xl shadow-xl sm:shadow-2xl p-2 sm:p-4 overflow-hidden">
         <div 
-          style={{ width: '100%', height: '100%', overflow: 'scroll' }} 
+          style={{ width: '100%', height: '100%', overflow: 'auto' }} 
           id="my-cal-inline-gritt-intro"
         />
       </div>

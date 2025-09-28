@@ -50,3 +50,7 @@
 @theme {
     --font-FK-Grotesk: 'FK-Grotesk', sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}

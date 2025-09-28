@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 
 const Professional = () => {
   return (
-    <section className="w-full flex flex-col items-center py-20 bg-white">
+    <section id="recipe" className="w-full flex flex-col items-center py-20 bg-white">
       {/* Heading - Kept as requested ("The Engine of AI Growth") */}
       <div className="text-center max-w-3xl px-4">
         <h2 className="text-4xl md:text-5xl font-serif text-gray-900">
