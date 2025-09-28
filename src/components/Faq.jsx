@@ -5,20 +5,20 @@ const Faq = () => {
 
   const faqs = [
     {
-      question: "What platforms is Comet available on?",
-      answer: "Comet is available on Windows, macOS, Linux, and mobile platforms.",
+      question: "How secure and compliant are your AI solutions with industry standards?",
+      answer: "Data safety and security is our first priority. Many of our partner companies are ISO, PCI-DSS, SOC2 etc certified. We follow Zero Trust threat model.",
     },
     {
-      question: "How do I install Comet?",
-      answer: "You can install Comet by downloading it from our website or your device’s app store.",
+      question: "Do you provide end-to-end support, from strategy to implementation and maintenance?",
+      answer: "Yes, we work closely from strategy to implementation to meet outcome. We are a few members and work as your extended team.",
     },
     {
-      question: "What search engine does Comet use?",
-      answer: "Comet uses its own privacy-focused search engine.",
+      question: "What industries do you specialize in for AI consulting?",
+      answer: "We specialize in industries where AI can create real business impact. We have successfully delivered solutions in FinTech, EdTech, and E-Commerce, helping companies optimize operations, personalize customer experiences, and unlock new revenue streams.",
     },
     {
-      question: "Is Comet free?",
-      answer: "Yes! Comet is completely free to use.",
+      question: "What experience do you bring to AI?",
+      answer: "Our team combines deep expertise in AI, MLOps, and cloud platforms, holding multiple Machine Learning certifications with hands-on experience delivering real-world solutions. We regularly publish research papers, talks and contribute in Open Source. We have recently built a AI Trading Bot for a Quant.",
     },
   ];
 
@@ -57,10 +57,10 @@ const Faq = () => {
 
       <div className="mt-12 bg-black text-white px-8 py-6 rounded-xl shadow-lg flex flex-col md:flex-row items-center justify-between w-full max-w-3xl">
         <p className="text-lg mb-4 md:mb-0 font-FK-Grotesk">
-          Looking for more helpful tips to get started with Comet?
+          Looking for more helpful tips to get started with AI?
         </p>
         <button className="bg-white text-black font-medium px-6 py-2 rounded-full hover:bg-gray-200 transition font-FK-Grotesk">
-          Comet Resources
+          Gritt Resources
         </button>
       </div>
     </div>
