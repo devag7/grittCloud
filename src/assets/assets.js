@@ -11,6 +11,9 @@ import farmer from './farmer.png'
 import SS1 from './SS1.png'
 import SS2 from './SS2.png'
 import SS3 from './SS3.png'
+import SS4 from './SS4.png'
+import SS5 from './SS5.png'
+import SS6 from './SS6.png'
 export const assets = {
   arrow,
   ball1,
@@ -24,5 +27,8 @@ export const assets = {
   farmer,
   SS1,
   SS2,
-  SS3
+  SS3,
+  SS4,
+  SS5,
+  SS6
 };
