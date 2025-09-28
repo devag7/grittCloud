@@ -6,7 +6,7 @@ const Faq = () => {
   const faqs = [
     {
       question: "How secure and compliant are your AI solutions with industry standards?",
-      answer: "Data safety and security is our first priority. We work with companies who are ISO, PCI-DSS, SOC2 etc certified. We follow Zero Trust threat model.",
+      answer: "Data safety and security is our first priority. Many of our partner companies are ISO, PCI-DSS, SOC2 etc certified. We follow Zero Trust threat model.",
     },
     {
       question: "Do you provide end-to-end support, from strategy to implementation and maintenance?",
