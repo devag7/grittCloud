@@ -18,7 +18,7 @@ const Faq = () => {
     },
     {
       question: "What experience do you bring to AI?",
-      answer: "Our team combines deep expertise in AI, MLOps, and cloud platforms, holding multiple Machine Learning certifications with hands-on experience delivering real-world solutions. We regularly publishes research papers, talks and contribute in Open Source. We have recently built a AI Trading Bot for a Quant.",
+      answer: "Our team combines deep expertise in AI, MLOps, and cloud platforms, holding multiple Machine Learning certifications with hands-on experience delivering real-world solutions. We regularly publish research papers, talks and contribute in Open Source. We have recently built a AI Trading Bot for a Quant.",
     },
   ];
 
