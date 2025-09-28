@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="flex items-center justify-center pt-44">
         <div className="flex flex-col items-center">
-          <p className="text-black/70 text-lg font-FK-Grotesk">A new browser from <u>Perplexity</u></p>
+          <p className="text-black/70 text-lg mb-6 font-FK-Grotesk">A new browser from <u>Perplexity</u></p>
           <h1 className="text-8xl font-thin mb-12  tracking-tighter font-ultralight">A pers
             <span className='font-ultralight-italic'>o</span>
             nal 
