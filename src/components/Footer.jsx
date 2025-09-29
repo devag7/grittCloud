@@ -7,7 +7,7 @@ const Footer = () => {
     { name: "LinkedIn", href: "https://www.linkedin.com/company/gritt-ai/" },
     { name: "Instagram", href: "https://www.instagram.com/gritt.ai" },
     { name: "Privacy Policy", href: "#" },
-    { name: "Terms & Conditions", href: "#" },
+    { name: "Terms & Conditions", href: "/terms" },
   ];
 
   return (

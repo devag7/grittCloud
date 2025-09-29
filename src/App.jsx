@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Balle from "./pages/Ball";
+import TermCondition from "./pages/TermCondition";
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/ball" element={<Balle />} />
+        <Route path="/terms" element={<TermCondition />} />
+        {/* <Route path="/ball" element={<Balle />} /> */}
       </Routes>
     </div>
   );
