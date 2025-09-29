@@ -1,8 +1,8 @@
 @import "tailwindcss";
 @font-face {
     font-family: 'pp-editorial-new';
-    src: url('fonts/fonnts.com-PP_Editorial_New_Light.woff2') format('woff2'),
-         url('fonts/fonnts.com-PP_Editorial_New_Light.woff') format('woff');
+    src: url('/fonts/fonnts.com-PP_Editorial_New_Light.woff2') format('woff2'),
+         url('/fonts/fonnts.com-PP_Editorial_New_Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,8 +11,8 @@
 }
 @font-face {
     font-family: 'pp-editorial-new-ittalic';
-    src: url('fonts/fonnts.com-PP_Editorial_New_Light.woff2') format('woff2'),
-         url('fonts/fonnts.com-PP_Editorial_New_Light.woff') format('woff');
+    src: url('/fonts/fonnts.com-PP_Editorial_New_Light.woff2') format('woff2'),
+         url('/fonts/fonnts.com-PP_Editorial_New_Light.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
@@ -21,8 +21,8 @@
 }
 @font-face {
     font-family: 'pp-editorial-ultralight-ittalic';
-    src: url('fonts/EditorialNew-UltralightItalic.woff2') format('woff2'),
-         url('fonts/EditorialNew-UltralightItalic.woff') format('woff');
+    src: url('/fonts/EditorialNew-UltralightItalic.woff2') format('woff2'),
+         url('/fonts/EditorialNew-UltralightItalic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
@@ -32,8 +32,8 @@
 
 @font-face {
     font-family: 'pp-editorial-ultralight';
-    src: url('fonts/pp-editorial-new-ultra-light.woff2')format('woff2'),
-         url('fonts/pp-editorial-new-ultra-light.woff') format('woff');
+    src: url('/fonts/pp-editorial-new-ultra-light.woff2')format('woff2'),
+         url('/fonts/pp-editorial-new-ultra-light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -42,8 +42,8 @@
 }
 @font-face {
     font-family: 'FK-Grotesk';
-    src: url('fonts/FKGroteskNeueTrial-Regular-BF6576818c3af74.woff2') format('woff2'),
-         url('fonts/FKGroteskNeueTrial-Regular-BF6576818c3af74.woff') format('woff');
+    src: url('/fonts/FKGroteskNeueTrial-Regular-BF6576818c3af74.woff2') format('woff2'),
+         url('/fonts/FKGroteskNeueTrial-Regular-BF6576818c3af74.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
