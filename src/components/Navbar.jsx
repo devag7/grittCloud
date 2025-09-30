@@ -13,7 +13,7 @@ const Navbar = () => {
           <img
             src={assets.grittLogo}
             alt="logo"
-            className="w-28 sm:w-12 h-12 md:w-auto"
+            className="w-28 sm:w-12 h-12 md:w-auto "
           />
         </div>
 
@@ -29,7 +29,7 @@ const Navbar = () => {
           />
           <div className="rounded-full px-4 py-3 bg-[#FBFAF4] hover:scale-110 cursor-pointer transition-all duration-300">
             <img
-              src="https://avatars.githubusercontent.com/u/166261414?s=200&v=4"
+              src={assets.Logo}
               className="w-6 h-8 object-cover"
               alt="personal logo"
             />
