@@ -54,10 +54,10 @@ const Content2 = () => {
           </div>
 
           {/* Button - Better mobile sizing */}
-          <a href="#recipe" className="transform transition-transform hover:scale-105">
+          <a href="#recipe" className="transform transition-transform">
             <Button
               textclass="text-black font-bold text-sm sm:text-base"
-              className="px-6 sm:px-9 py-3 sm:py-4 font-FK-Grotesk rounded-lg"
+              className="px-6 sm:px-9 py-3 sm:py-4 font-FK-Grotesk rounded-full"
               text="How We Can Help You"
               bgcolor="white"
               color="black"

@@ -19,21 +19,16 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-12 items-center">
-          <Button
-            textclass="text-black font-FK-Grotesk"
-            txtcolor1="white"
-            text="Download"
-            color="black"
-            bgcolor="[#FBFAF4]"
-            className="px-3 py-2"
-          />
-          <div className="rounded-full px-4 py-3 bg-[#FBFAF4] hover:scale-110 cursor-pointer transition-all duration-300">
-            <img
-              src={assets.Logo}
-              className="w-6 h-8 object-cover"
-              alt="personal logo"
-            />
-          </div>
+          <a target="_blank" href="https://github.com/grittcloud">
+
+          <button className="flex gap-4 px-3 py-2 justify-between hover:scale-105 bg-[#F6F5EE] rounded-full transition-all duration-300 items-center cursor-pointer">
+            <div className="bg-white rounded-full text-white size-10 flex justify-center items-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" />
+            </div>
+            <span className="">GitHub</span>
+          </button>
+          </a>
+
         </div>
 
         {/* Mobile Hamburger */}
